@@ -4,6 +4,10 @@ I build self-hosted applications, developer tools, and game tooling. My projects
 
 ## Selected projects
 
+### [Voice-MCP](https://github.com/ShiroTsuma/Voice-MCP)
+
+A local MCP server that gives Claude Code and Codex a voice on Windows. Agents announce finished turns and questions aloud, each session as its own character, and you answer by dictation that reaches the agent you name. Speech synthesis and recognition run offline on the CPU through sherpa-onnx, with voice cloning from a short recording. A single Go binary that installs itself.
+
 ### [Tsundoku](https://github.com/ShiroTsuma/Tsundoku)
 
 A self-hosted library for web novels, light novels, manga, and manhwa. Tracks reading progress, imports book metadata, manages EPUB collections, and supports private libraries with selective sharing. Built with ASP.NET Core, React, TypeScript, and PostgreSQL, with OpenTelemetry observability and local or S3-compatible storage.
